@@ -12,12 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nubia/TP1803/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Nubia
 PRODUCT_DEVICE := TP1803
 PRODUCT_MANUFACTURER := Nubia
 PRODUCT_MODEL := Mini 5G
-PRODUCT_NAME := lineage_TP1803
+PRODUCT_NAME := lmodroid_TP1803
 
 PRODUCT_GMS_CLIENTID_BASE := android-nubia

@@ -1,5 +1,6 @@
 [
   {
+    "remote": "lineage",
     "repository": "android_kernel_nubia_sm8150",
     "target_path": "kernel/nubia/sm8150"
   }
