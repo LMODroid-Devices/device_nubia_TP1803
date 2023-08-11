@@ -105,7 +105,6 @@ TARGET_BOARD_PLATFORM := msmnile
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
@@ -134,6 +133,11 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Screen density
 TARGET_SCREEN_DENSITY := 480
+
+# Trust
+TARGET_TRUST_USB_CONTROL_PATH := /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled
+TARGET_TRUST_USB_CONTROL_ENABLE := 0
+TARGET_TRUST_USB_CONTROL_DISABLE := 1
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
