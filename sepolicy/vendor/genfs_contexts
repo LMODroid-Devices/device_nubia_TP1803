@@ -11,7 +11,6 @@ genfscon sysfs /devices/platform/soc/a600000.ssusb/usb_data_enabled             
 
 # Wakeup stats (new)
 # https://lkml.org/lkml/2019/8/6/1275
-genfscon sysfs /devices/platform/soc/a600000.ssusb/wakeup                                                                                                                       u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/18800000.qcom,icnss/wakeup                                                                                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/diag/diag/wakeup                                                                                                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/171c0000.slim/tavil-slim-pgd/wakeup                                                                                                        u:object_r:sysfs_wakeup:s0
