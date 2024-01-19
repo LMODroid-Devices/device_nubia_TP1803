@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Partitions
+$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
+
 # API level, the device has been launched on
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
